@@ -46,6 +46,11 @@ h3 {
   font-size: 18px;
   line-height: 27px;
 }
+.btn-first:hover {
+  background-color: none;
+  border: 1px solid var(--primary-color);
+  color: var(--primary-color);
+}
 .small-title {
   color: var(--primary-font-color);
   font-size: 20px;
@@ -72,6 +77,10 @@ p {
   font-size: 16px;
   font-weight: bold;
   line-height: 24px;
+}
+.btn-second:hover {
+  background-color: var(--primary-color);
+  color: white;
 }
 .content-text {
   padding: 60px 20px 0 0;
