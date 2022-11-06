@@ -35,7 +35,7 @@ h2 {
 h3 {
   color: #272142;
   font-size: 24px;
-  font-weight: 400;
+  font-weight: 600;
   line-height: 36px;
 }
 .btn-first {
@@ -57,7 +57,7 @@ h3 {
   line-height: 27px;
   font-weight: 500;
 }
-.app-content h1 {
+.content-section h1 {
   font-size: 64px;
   line-height: 85px;
   padding: 30px 0;
@@ -84,8 +84,8 @@ p {
 .content-text {
   padding: 10px 60px 0 0;
 }
-.about-me {
-  padding: 100px;
+.content-container {
+  padding: 160px 20px;
 }
 .content-text h3 {
   font-weight: 700;
@@ -109,9 +109,11 @@ p {
   h1 {
     font-size: 68px;
   }
-  .app-content h1 {
+  .content-section h1 {
     padding: 0 0;
     font-size: 36px;
+    line-height: 80px;
+    text-align: center;
   }
   .content-text {
     text-align: center;
@@ -122,6 +124,9 @@ p {
   }
   .headshot-img {
     margin-top: 20px;
+  }
+  .content-container {
+    padding: 30px 15px;
   }
 }
 
