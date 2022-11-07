@@ -5,6 +5,7 @@ font-family: 'Poppins', sans-serif; */
   --secondary-color: #f9f7fe;
   --primary-font-color: #272142;
   --primary-font-opacity: rgba(39, 33, 66, 0.7);
+  --default-font-family: "Poppins", sans-serif;
 }
 
 .headline {
@@ -17,7 +18,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Poppins", sans-serif;
+  font-family: var(--default-font-family);
 }
 .headline-content {
   padding: 120px;
@@ -65,6 +66,7 @@ h3 {
 
 p {
   color: var(--primary-font-opacity);
+  font-family: var(--default-font-family);
   font-size: 18px;
   line-height: 27px;
   font-weight: 400;
@@ -99,6 +101,9 @@ p {
 .headshot-img {
   border-radius: 20px;
 }
+.content a {
+  font-family: var(--default-font-family);
+}
 @media (max-width: 960px) {
   .headline {
     height: 500px;
@@ -131,7 +136,23 @@ p {
     margin-top: 20px;
   }
   .content-container {
-    padding: 30px 15px;
+    padding: 160px 20px;
+  }
+  .content h1 {
+    font-size: 64px;
+    line-height: 80px;
+  }
+  .content h3 {
+    margin-top: 50px;
+    font-family: var(--default-font-family);
+  }
+  .content p {
+    font-weight: 500;
+    font-family: var(--default-font-family);
+  }
+  .content {
+    margin: 30px;
+    text-align: center;
   }
 }
 
