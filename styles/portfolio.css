@@ -7,7 +7,32 @@ font-family: 'Poppins', sans-serif; */
   --primary-font-opacity: rgba(39, 33, 66, 0.7);
   --default-font-family: "Poppins", sans-serif;
 }
-
+.logo {
+  max-width: auto;
+  max-height: 50px;
+}
+nav {
+  padding: 20px 0;
+}
+nav ul {
+  padding: 0;
+  margin: 0;
+}
+nav li {
+  list-style: none;
+  display: inline;
+  line-height: 40px;
+  margin-left: 10px;
+}
+nav a {
+  font-family: var(--default-font-family);
+  text-decoration: none;
+  color: var(--primary-font-color);
+  transition: all 100ms ease-in-out;
+}
+nav li.active a {
+  color: var(--primary-color);
+}
 .headline {
   background-color: var(--secondary-color);
   text-align: center;
